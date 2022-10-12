@@ -1,0 +1,13 @@
+﻿  Farm.cpp
+d:\쥬신\api 시연회\방학때한스타듀\mystardew\mystardew\Obj.h(26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Farm.cpp(18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Farm.cpp(176): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  Player.cpp
+d:\쥬신\api 시연회\방학때한스타듀\mystardew\mystardew\Obj.h(26): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  1 of 1199 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  MyStardew.vcxproj -> D:\쥬신\API 시연회\방학때한스타듀\MyStardew\Release\MyStardew.exe
+  MyStardew.vcxproj -> D:\쥬신\API 시연회\방학때한스타듀\MyStardew\Release\MyStardew.pdb (Full PDB)

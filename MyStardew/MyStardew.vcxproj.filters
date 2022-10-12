@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{ba2ee60f-56f8-48b3-bea6-38e3fd724e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{f6fc2076-a5dd-4eb0-b362-cd10ac7b3361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{7adf55e0-4b59-436f-913c-11471fb89037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr">
+      <UniqueIdentifier>{e06fb558-e675-42f9-a31a-fdf4e8a53f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene">
+      <UniqueIdentifier>{28a448a5-4f22-4a94-ac05-bc9bb5bb761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\00. BmpMgr">
+      <UniqueIdentifier>{fa0cd0de-f802-4dcf-b3e1-903fd40c173d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\00. BmpMgr\MyBitMap">
+      <UniqueIdentifier>{305f79b6-68c6-441f-a298-bc99f4ff19d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\01. SceneMgr">
+      <UniqueIdentifier>{09941d75-223b-4d8d-8ff4-e5692cfffded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\02. ObjMgr">
+      <UniqueIdentifier>{8e5101c8-1249-4f49-aa93-7ee479120a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\00. MyMenu">
+      <UniqueIdentifier>{f1c594db-6908-47f2-b262-27e87abd1a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. UI">
+      <UniqueIdentifier>{a5e2e5f0-9b67-4e64-8634-317d2dc5d0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. UI\00. UIImage">
+      <UniqueIdentifier>{731a893b-bf73-47d9-a732-49935ec3ab2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. UI\01. UIButton">
+      <UniqueIdentifier>{50ead365-2fa5-4c98-b193-69f31090d627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\03. KeyMgr">
+      <UniqueIdentifier>{0cced53c-a0fa-4d15-a833-b8db2c7c5d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\01. House">
+      <UniqueIdentifier>{e4d7dd80-2e59-4517-bbbb-2687d1dabb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Player">
+      <UniqueIdentifier>{6634452d-b55e-4989-a87d-ae4fc1d27428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\04. ScrollMgr">
+      <UniqueIdentifier>{ab6eb4ad-a9aa-415c-adbc-674b963290dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Tile">
+      <UniqueIdentifier>{e039e723-0b8f-499c-89bf-a5f7fbcf4d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\05. TileMgr">
+      <UniqueIdentifier>{220c3b52-8a23-4ff2-8550-b4d5c0999cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\06. CollisionMgr">
+      <UniqueIdentifier>{93baa5ed-927e-46c6-9326-3cb216125e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\02. Farm">
+      <UniqueIdentifier>{84934e5e-99bd-4bc1-9e61-cd76397b0442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. UI\02. UIInven">
+      <UniqueIdentifier>{a7e0b60a-8031-4f63-afd0-791d73d6aeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool">
+      <UniqueIdentifier>{d4260a8f-39dd-4ee4-93f2-137be49bd6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Seed">
+      <UniqueIdentifier>{259add46-85f0-4c6a-9495-9d497c003338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Crop">
+      <UniqueIdentifier>{20a2a9eb-26d1-47a8-a89e-2e2c6f7c0a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. Present">
+      <UniqueIdentifier>{21798b87-2df1-4642-85ba-6a902ddbfcdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool\00. Pick">
+      <UniqueIdentifier>{f3b3e476-f1fd-4b8d-821b-4c1cc38a777e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool\01. Watering">
+      <UniqueIdentifier>{a6f39e93-90b4-4555-b0c6-b5d037948751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Seed\00. ParsnipSeed">
+      <UniqueIdentifier>{41b1486b-7bfc-4ec9-b453-0dff12001f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Crop\00. Parsnip">
+      <UniqueIdentifier>{32f20fec-2183-4a5a-be4f-9faac4d4856f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\07. InvenMgr">
+      <UniqueIdentifier>{a7f4e947-045d-47f5-9bb0-a83eef2ba8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. Dirt">
+      <UniqueIdentifier>{cc9aee3a-011f-42b9-a01e-7a079e0aed3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\03. Night">
+      <UniqueIdentifier>{671a1f06-dac5-4cc4-9962-3706c188a9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool\02. Pickax">
+      <UniqueIdentifier>{2f48fcbf-6c5f-49ba-a5b2-1c4894bf77cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool\03. Ax">
+      <UniqueIdentifier>{581dd7d4-0ec5-4b64-9054-a3d4d4209f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Wood">
+      <UniqueIdentifier>{b97aecb5-8b98-4ae6-9051-2107e3321a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\09. Rock">
+      <UniqueIdentifier>{21b15601-5dc3-442f-87ae-a0cc9ea50352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\04. Store">
+      <UniqueIdentifier>{d1a224f0-a10f-4d9e-a9e9-1d585839e672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\08. StoreMgr">
+      <UniqueIdentifier>{fd0afc2d-3d7a-4037-92c9-e671eaad6cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\09. SebaMgr">
+      <UniqueIdentifier>{0153669b-6be8-4604-a411-b8726c2965ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\05. Ending">
+      <UniqueIdentifier>{fdabbea6-e0e1-446f-a478-b31df031af53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\06. Cave">
+      <UniqueIdentifier>{6401c31b-3bba-46fd-82c8-1b534eb67fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. Monster">
+      <UniqueIdentifier>{18b60f32-3329-401b-985d-98089149b521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tool\04. Gun">
+      <UniqueIdentifier>{ab823021-9141-4a4c-b0af-fb1b066e83ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\11.Bullet">
+      <UniqueIdentifier>{b235337a-becd-45a4-85ba-f042d8ecc208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\12. Tree">
+      <UniqueIdentifier>{31c2d42f-6754-4a74-bd83-3bb3d9e8048a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\13. Empty">
+      <UniqueIdentifier>{21bb63dc-14d2-40c6-9a4c-61f33e06bc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\10. SoundMgr">
+      <UniqueIdentifier>{184091d4-eb6c-4fa3-8cc0-2fc666230d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\14. Apple">
+      <UniqueIdentifier>{9413fe0b-e4a2-4ddd-a88d-0fd875d1d5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\15. Crystal">
+      <UniqueIdentifier>{27729d6d-4483-49d8-8a7b-edc56f462024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\16. Keg">
+      <UniqueIdentifier>{2b1dabe9-1dcc-4299-95cd-563022c97f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\17. Pickle">
+      <UniqueIdentifier>{7c520f18-203f-429c-ace3-dc027678edf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\18. Statue">
+      <UniqueIdentifier>{09b6114b-42b6-436a-bdec-32021252cdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\19. Salad">
+      <UniqueIdentifier>{76a4b23b-e3e1-4901-ad01-df9979925b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\07. Undertale">
+      <UniqueIdentifier>{e6d70653-c03d-4038-a145-1720b33c437f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\20. Puzzle">
+      <UniqueIdentifier>{506f08f6-adf6-4f2c-96b3-31dd788ea032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\21. Ban">
+      <UniqueIdentifier>{851106d1-3ca3-48ad-9f3f-b4f003fe4ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\11. UnderMgr">
+      <UniqueIdentifier>{a374e6ef-ebd7-41b2-becb-a3668fb797fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\08. Running">
+      <UniqueIdentifier>{2af9efa7-101c-42aa-9688-ba8b7b4a6907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\22. Horse">
+      <UniqueIdentifier>{3c35c546-f222-4fbb-8721-a468a39b6eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\23. Kirby">
+      <UniqueIdentifier>{6a74de57-d936-47f1-8a56-6a62da11bb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\24. Box">
+      <UniqueIdentifier>{d888abbc-8376-479b-8063-3ffb36cb6fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\25. Rain">
+      <UniqueIdentifier>{47d9ec43-65c5-40f4-b2bc-3e274f822da2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStardew.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>02. Mgr\00. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitMap.h">
+      <Filter>02. Mgr\00. BmpMgr\MyBitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>02. Mgr\01. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>02. Mgr\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>03. Scene\00. MyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02. Mgr\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>01. Obj\00. UI\00. UIImage</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>01. Obj\00. UI\01. UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>02. Mgr\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>03. Scene\01. House</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>02. Mgr\04. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01. Obj\02. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>02. Mgr\05. TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>02. Mgr\06. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>03. Scene\02. Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInven.h">
+      <Filter>01. Obj\00. UI\02. UIInven</Filter>
+    </ClInclude>
+    <ClInclude Include="Pick.h">
+      <Filter>01. Obj\03. Tool\00. Pick</Filter>
+    </ClInclude>
+    <ClInclude Include="Watering.h">
+      <Filter>01. Obj\03. Tool\01. Watering</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsnipSeed.h">
+      <Filter>01. Obj\04. Seed\00. ParsnipSeed</Filter>
+    </ClInclude>
+    <ClInclude Include="Parsnip.h">
+      <Filter>01. Obj\05. Crop\00. Parsnip</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenMgr.h">
+      <Filter>02. Mgr\07. InvenMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirt.h">
+      <Filter>01. Obj\07. Dirt</Filter>
+    </ClInclude>
+    <ClInclude Include="Night.h">
+      <Filter>03. Scene\03. Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickax.h">
+      <Filter>01. Obj\03. Tool\02. Pickax</Filter>
+    </ClInclude>
+    <ClInclude Include="Ax.h">
+      <Filter>01. Obj\03. Tool\03. Ax</Filter>
+    </ClInclude>
+    <ClInclude Include="Wood.h">
+      <Filter>01. Obj\08. Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>01. Obj\09. Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>03. Scene\04. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreMgr.h">
+      <Filter>02. Mgr\08. StoreMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Present.h">
+      <Filter>01. Obj\06. Present</Filter>
+    </ClInclude>
+    <ClInclude Include="SebaMgr.h">
+      <Filter>02. Mgr\09. SebaMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>03. Scene\05. Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Cave.h">
+      <Filter>03. Scene\06. Cave</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\10. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>01. Obj\03. Tool\04. Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. Obj\11.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>01. Obj\12. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>01. Obj\13. Empty</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>02. Mgr\10. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>01. Obj\14. Apple</Filter>
+    </ClInclude>
+    <ClInclude Include="Crystal.h">
+      <Filter>01. Obj\15. Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="Keg.h">
+      <Filter>01. Obj\16. Keg</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickle.h">
+      <Filter>01. Obj\17. Pickle</Filter>
+    </ClInclude>
+    <ClInclude Include="Statue.h">
+      <Filter>01. Obj\18. Statue</Filter>
+    </ClInclude>
+    <ClInclude Include="Salad.h">
+      <Filter>01. Obj\19. Salad</Filter>
+    </ClInclude>
+    <ClInclude Include="Undertale.h">
+      <Filter>03. Scene\07. Undertale</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle.h">
+      <Filter>01. Obj\20. Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="Ban.h">
+      <Filter>01. Obj\21. Ban</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderMgr.h">
+      <Filter>02. Mgr\11. UnderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Running.h">
+      <Filter>03. Scene\08. Running</Filter>
+    </ClInclude>
+    <ClInclude Include="Horse.h">
+      <Filter>01. Obj\22. Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="Kirby.h">
+      <Filter>01. Obj\23. Kirby</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>01. Obj\24. Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>01. Obj\25. Rain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStardew.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>02. Mgr\00. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitMap.cpp">
+      <Filter>02. Mgr\00. BmpMgr\MyBitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>02. Mgr\01. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>02. Mgr\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>03. Scene\00. MyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>01. Obj\00. UI\00. UIImage</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>01. Obj\00. UI\01. UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>02. Mgr\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>03. Scene\01. House</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>02. Mgr\04. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01. Obj\02. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>02. Mgr\05. TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>02. Mgr\06. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Farm.cpp">
+      <Filter>03. Scene\02. Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInven.cpp">
+      <Filter>01. Obj\00. UI\02. UIInven</Filter>
+    </ClCompile>
+    <ClCompile Include="Pick.cpp">
+      <Filter>01. Obj\03. Tool\00. Pick</Filter>
+    </ClCompile>
+    <ClCompile Include="Watering.cpp">
+      <Filter>01. Obj\03. Tool\01. Watering</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsnipSeed.cpp">
+      <Filter>01. Obj\04. Seed\00. ParsnipSeed</Filter>
+    </ClCompile>
+    <ClCompile Include="Parsnip.cpp">
+      <Filter>01. Obj\05. Crop\00. Parsnip</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenMgr.cpp">
+      <Filter>02. Mgr\07. InvenMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Dirt.cpp">
+      <Filter>01. Obj\07. Dirt</Filter>
+    </ClCompile>
+    <ClCompile Include="Night.cpp">
+      <Filter>03. Scene\03. Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickax.cpp">
+      <Filter>01. Obj\03. Tool\02. Pickax</Filter>
+    </ClCompile>
+    <ClCompile Include="Ax.cpp">
+      <Filter>01. Obj\03. Tool\03. Ax</Filter>
+    </ClCompile>
+    <ClCompile Include="Wood.cpp">
+      <Filter>01. Obj\08. Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>01. Obj\09. Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>03. Scene\04. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreMgr.cpp">
+      <Filter>02. Mgr\08. StoreMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Present.cpp">
+      <Filter>01. Obj\06. Present</Filter>
+    </ClCompile>
+    <ClCompile Include="SebaMgr.cpp">
+      <Filter>02. Mgr\09. SebaMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>03. Scene\05. Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Cave.cpp">
+      <Filter>03. Scene\06. Cave</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\10. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>01. Obj\03. Tool\04. Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. Obj\11.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>01. Obj\12. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>01. Obj\13. Empty</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>02. Mgr\10. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>01. Obj\14. Apple</Filter>
+    </ClCompile>
+    <ClCompile Include="Crystal.cpp">
+      <Filter>01. Obj\15. Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="Keg.cpp">
+      <Filter>01. Obj\16. Keg</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickle.cpp">
+      <Filter>01. Obj\17. Pickle</Filter>
+    </ClCompile>
+    <ClCompile Include="Statue.cpp">
+      <Filter>01. Obj\18. Statue</Filter>
+    </ClCompile>
+    <ClCompile Include="Salad.cpp">
+      <Filter>01. Obj\19. Salad</Filter>
+    </ClCompile>
+    <ClCompile Include="Undertale.cpp">
+      <Filter>03. Scene\07. Undertale</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle.cpp">
+      <Filter>01. Obj\20. Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="Ban.cpp">
+      <Filter>01. Obj\21. Ban</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderMgr.cpp">
+      <Filter>02. Mgr\11. UnderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Running.cpp">
+      <Filter>03. Scene\08. Running</Filter>
+    </ClCompile>
+    <ClCompile Include="Horse.cpp">
+      <Filter>01. Obj\22. Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="Kirby.cpp">
+      <Filter>01. Obj\23. Kirby</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>01. Obj\24. Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>01. Obj\25. Rain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyStardew.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MyStardew.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
